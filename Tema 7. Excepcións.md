@@ -44,7 +44,7 @@ Na declaración do método se deben **especificar todas as excepcións** que pod
 
 ## Xestión de excepcións
 ### 1. Try
-Un **método A intenta executar o método B**: hai que indicar en qué parte do gódigo do método A se vai intentar a execución do método B. No _bloque try_ se debe _invocar obrigatoriamente ao método B_ (ainda que o ideal é que todo o código funcional do método A estea dentro dun único try).
+Un **método A intenta executar o método B**: hai que indicar en qué parte do código do método A se vai intentar a execución do método B. No _bloque try_ se debe _invocar obrigatoriamente ao método B_ (ainda que o ideal é que todo o código funcional do método A estea dentro dun único try).
 >[!Exemplo]
 > Como o método `setSueldo` pode xerar unha excepción do tipo `SueldoMinimo`, este método debe invocarse dende un try.
 ```java

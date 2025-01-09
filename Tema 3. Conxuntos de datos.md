@@ -48,7 +48,7 @@ for(Continente continente : colContinentes)
 ```
 Neste caso, `colContinentes` é unha colección xerada polo método `values()` da clase HashMap, e que se recorrerá no bucle for-each; e `continente` é  o obxeto que se extrae da colección en cada iteración.
 
-As coleccións **non se poden modificar** mentres se recorren: ConcurrentModificationException.
+As coleccións **non se poden modificar** mentres se recorren: _ConcurrentModificationException_.
 ```java
 public Collection borrarContinente(Continente aBorrar) {
     Collection<Continente> colConts = continentes.values();
@@ -70,7 +70,7 @@ Neste caso se a clase `Continente` non reimplementa `equals()`, _`remove()` comp
 + `E next()`: obtén o elemento da posición contigua e _actualiza_ o punteiro a esta posición
 + `remove()`: _elimina_ o elemento que está na posición actual
 
-É unha _forma alternativa ao for-each_, polo qu presenta varias **diferencias** con este:
+É unha _forma alternativa ao for-each_, polo que presenta varias **diferencias** con este:
 + _Permite a eliminación_ dos elementos mentres se recorre a colección: elimina tanto os elementos da colección como do iterador
 + Só se pode _empregar unha única vez_ (cando chega ao final `hasNext() = false`)
 + O _rendemento é o mesmo_, xa que o compilador interpreta un for-each como se fose un iterador.
@@ -192,7 +192,7 @@ private void generarPaises() {
 ```
 Aquí, `continentes` é un `Map<String, Continente>`, polo que se emprega `keySet()` para xerar un _conxunto de claves que se recorren cun for-each_.
 
-**Map.Entry** é unha interface que define métodos pra poder acceder  á dupla clave-valor:
+**Map.Entry** é unha interface que define métodos pra poder acceder á dupla clave-valor:
 + `K getKey()`: para acceder á clave da entrada no mapa
 + `V getValue()`: para acceder ao valor da entrada no mapa
 ```java
@@ -213,9 +213,10 @@ private void generarPaises() {
 1. Compróbase se os obxetos teñen o mesmo _hash code_
 2. Se o hash code é igual, invócase a _equals_
 
-Asúmse que dous obxetos distintos poden ten o mesmo hash code.
+Asúmse que _dous obxetos distintos poden ten o mesmo hash code_.
 
 O emprego do hash code simplifica e fai máis eficiente o acceso aos datos dun HashMap, xa que en primeira instancia emprégase a comparación de enteiros. Para xerar o hash code, hai que sobrescribir o método `hashCode()` herdado de Object (método nativo).
+**==!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!==** **[[Preguntas tipo exame POO#Pregunta 3. Tema 3 HashMaps| PREGUNTA DE EXAME!!!]]** **==!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!==**
 
 ## Comparativa dos conxuntos de datos
 

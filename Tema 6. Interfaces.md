@@ -97,7 +97,7 @@ Os métodos por defecto **herdanse** ás clases que implementan a interfaz, polo
 Son os métodos que **poden ser invocados dende o inicio do programa**, polo que se poden _invocar sen instanciar_ a clase na que se definiron.
 + Pódense definir en _calquera clase_ ou en calquera _interfaz_.
 + Cárganse _automáticamente en memoria_ ao iniciar o programa
-+ Só poden _invocar métodos estáticos_, xa qe teñen que estar dispoñibles dente o arranque do programa.
++ Só poden _invocar métodos estáticos_, xa que teñen que estar dispoñibles dente o arranque do programa.
 + _Non son herdados_.
 
 > [!Exemplo]

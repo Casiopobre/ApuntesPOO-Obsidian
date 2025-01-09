@@ -16,7 +16,7 @@ En POO distínguense dúas especies de tipos de datos:
 - As variables ou *atributos*: son as características que definen á entidade representada
 - As funcións ou *métodos*: acceden aos atributos para permitir a súa consulta e actualización e para proporcionar as funcionalidades requeridas ao programa
 
-[[Exemplo estrutura clase|Estrutura xeral dunha clase:]] [^1]
+Estrutura xeral dunha clase: [^1]
 ![[Pasted image 20241223161816.png]]
 
 [^1]: [[Erros típicos de programación]]
@@ -40,7 +40,7 @@ Escriben o valor dos atributos.
 * O nome do setter e set + <nome_atributo> en camelCase (**`setAtributo`**)
 * Normalmente **comproban certas condicións** sobre os valores que pode adquirir o atributo para poder manter a integridade dos datos.
 #### Constructores
- > A _declaración dun atributo_ dunha clase (a.k.a. dunha variable) ten distintos efectos según o seu tipo de dato: se é un tipo de dato primitivo, resérvase memoria automáticamente; pero _se é de tipo clase, non se lle fai unha reserva de memoria automática_, polo que se lle asigna un valor inicial de `null`, o que pode provocar unha `NullPointerException` se se intenta usar (xa que na práctica, a variable se trat como se non existise). 
+ > A _declaración dun atributo_ dunha clase (a.k.a. dunha variable) ten distintos efectos según o seu tipo de dato: se é un tipo de dato primitivo, resérvase memoria automáticamente; pero _se é de tipo clase, non se lle fai unha reserva de memoria automática_, polo que se lle asigna un valor inicial de `null`, o que pode provocar unha `NullPointerException` se se intenta usar (xa que na práctica, a variable se trata como se non existise). 
  > Para solucionar esto, faise unha _reserva de memoria manual_ para cada atributo de tipo clase: invócanse os constructores a través do operador new.
 
 Un **constructor** é un método que se invoca para:

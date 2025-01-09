@@ -1,4 +1,4 @@
-Docu# Tema 4. Herdanza: xerarquía de clases, composición e abstracción
+# Tema 4. Herdanza: xerarquía de clases, composición e abstracción
 ## Concepto de herdanza
 A **herdanza** é un mecanismo mediante o cal unha _clase derivada_ reemprega os atributos e os métodos dunha _clase base_, herdándose. Ten como _obxectivo_ a construccción de clases basadas en outras clases que xa teñen implementada a funcionalidade desexada.
 

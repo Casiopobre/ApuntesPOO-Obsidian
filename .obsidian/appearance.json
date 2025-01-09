@@ -1,0 +1,9 @@
+{
+  "cssTheme": "Catppuccin",
+  "enabledCssSnippets": [
+    "Image_Align"
+  ],
+  "textFontFamily": "Liberation Serif",
+  "baseFontSize": 14,
+  "theme": "obsidian"
+}

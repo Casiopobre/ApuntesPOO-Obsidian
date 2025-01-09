@@ -1,10 +1,11 @@
 # Tema 2. Clases e tipos de datos: tipos primitivos, referencias e aliasing
 ## Tipos de datos primitivos
 Son os tipos de datos **predefinidos** e teñen unha correspondencia directa cos tipos de datos de C.
+
 Características:
 + _Tamaño fixo_
 + _Correspondencia directa_ cos tipos de datos representables por un ordenador
-+ _Reserva de memoria automática_ ao declaralos
++ ==_Reserva de memoria automática_ ao declaralos==
 + _Non teñen métodos_
 + _Non son clases_, xa que están directamente vinculados aos valores das variables
 
@@ -103,7 +104,7 @@ Os datos almacénanse de forma distinta según o tipo de dato e o lugar do progr
 	+ As variables só existen na pila _durante a execución do método que as creou_.
 	+ Os datos que se almacenan na pila deben ter sempre un *tamaño coñecido* :
 		+ Todo o _código_ dos métodos (_call stack_)
-		+ Todos os _datos_ de tipo _primitivos_
+		+ ==Todos os _datos_ de tipo _primitivos_==
 		+ As _referencias_ aos obxetos creados no programa 
 + **Montón**: zona da memoria na que o procesador non precisa de coñecer a cantidade de memoria que é necesario reservar para uns datos nin o tempo que deben estar dispoñibles os mesmos.
 	+ _Almacena os obxetos_ creados durante a execución do programa
@@ -206,8 +207,8 @@ En Java existen 4 tipos de referencias según a _xestión_ que fai delas o recol
 
 + **Referencias suaves** (soft references): 
 	+ Para crealas hai que instancias a clase SoftReference (igual que coa anterior)
-	+ Pódese seguir accedendo á dirección de memoria á que apunta aínda que a referencia forte á que apunta fose eliminada polo recolector de lixo.
-	+ O recolector só elimina estas referencias cando é estrictamente necesario dispoñer da memoria que ocupan.
+	+ Pódese seguir accedendo á dirección de memoria á que apunta aínda que a _referencia forte á que apunta fose eliminada_ polo recolector de lixo.
+	+ O recolector só _elimina_ estas referencias cando _é estrictamente necesario_ dispoñer da memoria que ocupan.
 	+ Exemplo: 
 		```java
 		float[] rango = new float[2];
@@ -218,9 +219,9 @@ En Java existen 4 tipos de referencias según a _xestión_ que fai delas o recol
 		```
 
 + **Referencias pantasmas** (phantom references):
-	+ Para crealas, hai que instanciar a clase PhantomReference cos seguintes args: unha referencia forte á que apunta, e unha cola (instancia de ReferenceQueue) na que se almacenará dita referencia forte.
-	+ Aínda que a referencia forte sexa eliminada, pódese sequir accedendo a esa dirección de memoria a través da cola (poll)
-	+ O método get() devolverá sempre null, xa que este tipo de referencias están pensadas para empregarse cando a as referencias fortes xa non están dispoñibles.
+	+ Para crealas, hai que instanciar a clase PhantomReference cos seguintes _args_: unha _referencia forte_ á que apunta, e unha _cola (instancia de ReferenceQueue)_ na que se almacenará dita referencia forte.
+	+ Aínda que a referencia forte sexa eliminada, pódese _sequir accedendo_ a esa dirección de memoria a través da _cola_ (poll)
+	+ O método _get() devolverá sempre null_, xa que este tipo de referencias están pensadas para empregarse cando a as referencias fortes xa non están dispoñibles.
 	+ Exemplo:
 ```java
 Sensor s1 = new Sensor(50, new float[]{ -10, 10 });
@@ -265,7 +266,7 @@ Continente australia1 = new Continente("Australia", "AZUL");
 Continente australia2 = new Continente("Australia", "AZUL");
 ```
 
-2. **Son do mesmo tipo e os valores dos atributos son iguais**. Esto obriga a que ambos obxetos teñan os _mesmos valores dos atributos_ e que estes sexan _inmutábeis_.
+2. **Son do mesmo tipo e os valores dos atributos son iguais**. Esto obriga a que ambos obxetos teñan os _mesmos valores dos atributos_ ou que estes sexan _inmutábeis_.
 >[!Exemplo]
 > Neste código, `NumEjercitos` é un atributo mutable, polo que `jugador1` e `jugador2`  só serán iguais cando `NumEjercitos` teña o mesmo valor para ambolosdous.
 ```java

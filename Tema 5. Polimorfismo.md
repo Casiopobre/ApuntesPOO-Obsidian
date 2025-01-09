@@ -32,9 +32,12 @@ Se un **método está sobreescrito**, cando se fai o upcasting, o obxeto emprega
 O upcasting é un **concepto clave** na POO, xa que, _se é necesario o seu uso no programa, entón deberase aplicar o mecanismo de herdanza_, o que _simplifica_ o deseño do programa.
 
 Empregando upcasting, **nunca se producirá un erro** xa que a _herdanza_ garante que as clases derivadas teñan os mesmos métodos que a clase base.
+**==!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!==** **[[Preguntas tipo exame POO#Pregunta 4. Tema 5 Upcasting| PREGUNTA DE EXAME!!!]]** **==!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 ### Downcasting
 Co downcasting **fórzase** ao obxeto da clase base a comportarse como un da clase derivada, polo que non se pode asegurar que esto se cumpla, o que fai que sexa unha opción _unsafe_ que pode xerar un erro (_ClassCastException_). Así, típicamente _emprégase para desfacer un upcasting_.
+
+**==!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!==** **[[Preguntas tipo exame POO#Pregunta 5. Tema 5 Downcasting| PREGUNTA DE EXAME!!!]]** **==!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 É **necesario castear** o obxeto á clase na que se convertirá: 
 `Infanteria inf = (Infanteria) carta`

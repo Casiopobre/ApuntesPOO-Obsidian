@@ -1,0 +1,201 @@
+{
+  "main": {
+    "id": "6e94c956919fe76d",
+    "type": "split",
+    "children": [
+      {
+        "id": "4859ef9acf744331",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8e11b122ab76d042",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tema 2. Clases e tipos de datos.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tema 2. Clases e tipos de datos"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b67aa58ba058c934",
+    "type": "split",
+    "children": [
+      {
+        "id": "4d3cce6a5eed1858",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2c76135dace67251",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "bc603c555569baf8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "458a724e6f2aba40",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 266
+  },
+  "right": {
+    "id": "1083a3822211d7ab",
+    "type": "split",
+    "children": [
+      {
+        "id": "1b6be15ae40a0cd5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "77fd40b676227e9f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Apuntamentos POO.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Apuntamentos POO"
+            }
+          },
+          {
+            "id": "59820f978200d8d8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Apuntamentos POO.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Apuntamentos POO"
+            }
+          },
+          {
+            "id": "6c593961ecd19efe",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "560ceed0cbd3f1ef",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Apuntamentos POO.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Apuntamentos POO"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "8e11b122ab76d042",
+  "lastOpenFiles": [
+    "Tema 3. Conxuntos de datos.md",
+    "Exames/PreguntasCortas-TipoExame.md",
+    "Tema 7. Excepcións.md",
+    "Tema 6. Interfaces.md",
+    "Tema 1. Encapsulación.md",
+    "Exames/2017-TipoTest3.md",
+    "Exames/2017-TipoTest.md",
+    "Exames/2017-TipoTest2.md",
+    "Tema 5. Polimorfismo.md",
+    "Anexos/Preguntas tipo exame POO.md",
+    "Tema 4. Herdanza.md",
+    "Tema 2. Clases e tipos de datos.md",
+    "Anexos/Exemplos MonoPOOly.md",
+    "ApuntesPOO-SalviaObsidian.zip",
+    "Anexos/Erros típicos de programación.md",
+    "Resumen-POO.canvas",
+    "Exemplo estrutura clase.md",
+    "Exames/2016-TipoTest",
+    "Exames",
+    "Imaxes/Pasted image 20250104145638.png",
+    "ApuntesPOO.zip",
+    "Imaxes/Pasted image 20250104125255.png",
+    "Imaxes/Pasted image 20250104125106.png",
+    "Imaxes/Pasted image 20250104124600.png",
+    "Imaxes/Pasted image 20250104124546.png",
+    "Imaxes/Pasted image 20250104124545.png",
+    "Imaxes/Pasted image 20250104124544.png",
+    "Imaxes/Pasted image 20250104124543.png",
+    "Imaxes/Pasted image 20250104123307.png",
+    "Imaxes/Pasted image 20250102173246.png",
+    "Anexos/Exemplo estrutura clase.md",
+    "a.md",
+    "Anexos"
+  ]
+}
